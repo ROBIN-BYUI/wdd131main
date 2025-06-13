@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Credit card form submission project">
+  <meta name="author" content="Robin Ukpong">
+  <title>Credit Card Form</title>
+
+  <link rel="stylesheet" href="card.css">
+  <link rel="icon" type="image/png" href="favicon.png"> 
+  <script src="card.js" defer></script>
+</head>
+<body>
+
+  <form id="credit-card">
+    <div class="card-front">
+    
+   
+      <img
+        class="card-image"
+        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1NSIgaGVpZ2h0PSIzNSIgdmlld0JveD0iMCAwIDU1IDM1Ij48cmVjdCB3aWR0aD0iNTUiIGhlaWdodD0iMzUiIGZpbGw9IiNmMzYiIHJ4PSI2Ii8+PC9zdmc+"
+        alt="Card"
+        height="55px"
+      >
+  
+
+      <p>Total: $199</p>
+
+      <label for="cardNumber">Card Number</label>
+      <input type="text" id="cardNumber" name="cardNumber" placeholder="1234 5678 9101 1020" required>
+
+      <label for="cardHolder">Card Holder</label>
+      <input type="text" id="cardHolder" name="cardHolder" placeholder="John Doe" required>
+
+      <label for="expMonth">Expiration</label>
+      <div class="expiration-fields">
+        <input type="text" id="expMonth" name="expMonth" placeholder="MM" required>
+        <input type="text" id="expYear" name="expYear" placeholder="YY" required>
+      </div>
+
+      <label for="cvv">CVC/CVV</label>
+      <input type="text" id="cvv" name="cvv" placeholder="XXX" required>
+
+      <button type="submit">Submit</button>
+    </div>
+
+    <div class="card-back"></div>
+  </form>
+
+  <p class="errorMsg"></p>
+
+</body>
+</html>
