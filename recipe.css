@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+:root {
+  --primary-color: #1898e0;
+  --secondary-color: #59c3c3;
+  --text-dark: #333;
+  --text-light: #ebebeb;
+  --primary-font: Arial, Helvetica, sans-serif;
+  --secondary-font: "Amatic SC";
+}
+
+body {
+  font-family: var(--primary-font);
+  margin: 0;
+  background-color: #f9f9f9;
+  color: var(--text-dark);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: var(--primary-color);
+  color: white;
+  padding: 1rem;
+}
+
+.logo {
+  width: 50px;
+}
+
+form {
+  margin-left: auto;
+}
+
+form input {
+  padding: 0.5rem;
+}
+
+form button {
+  padding: 0.5rem;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.recipe-card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin: 1rem;
+  background: white;
+}
+
+.recipe-card img {
+  max-width: 100%;
+}
+
+.tag {
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 0.2rem 0.5rem;
+  display: inline-block;
+  margin-top: 0.5rem;
+}
+
+.rating {
+  color: gold;
+  display: block;
+  margin-top: 0.5rem;
+}
+
+.description {
+  display: none;
+}
+
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+.social img {
+  width: 24px;
+  margin: 0 5px;
+}
+
+
+@media (min-width: 600px) {
+  main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .description {
+    display: block;
+  }
+}
