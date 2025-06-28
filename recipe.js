@@ -1,7 +1,7 @@
 const recipes = [
   {
     name: "Apple Crisp",
-    image: "images/apple-crisp.jpg",
+    image: "apple.jpg",
     category: "dessert",
     tags: ["dessert", "fruit", "fall"],
     rating: 4,
@@ -10,7 +10,7 @@ const recipes = [
   },
   {
     name: "Spaghetti Carbonara",
-    image: "images/Avocado-Toast-08.jpg",
+    image: "images.jpeg",
     category: "main",
     tags: ["pasta", "quick", "italian"],
     rating: 5,
