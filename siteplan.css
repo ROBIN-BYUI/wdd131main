@@ -1,0 +1,18 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F1FAEE;
+    color: #1D3557;
+    padding: 20px;
+    line-height: 1.6;
+  }
+  
+  h1 {
+    color: #E63946;
+    font-family: 'Lobster', cursive;
+  }
+  
+  h2 {
+    color: #457B9D;
+    margin-top: 20px;
+  }
+  
